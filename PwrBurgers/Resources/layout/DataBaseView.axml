@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="25.5dp"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="Name: "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_marginRight="13.0dp" />
+        <EditText
+            android:id="@+id/dbUserName"
+            android:textColor="@android:color/black"
+            android:background="#ffffff"
+            android:gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6.5dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="25.5dp"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="Meows: "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_marginRight="13.0dp" />
+        <EditText
+            android:id="@+id/meowsCount"
+            android:textColor="@android:color/black"
+            android:inputType="number"
+            android:background="#ffffff"
+            android:gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/AddUserButton"
+        android:layout_width="155.0dp"
+        android:layout_height="wrap_content"
+        android:text="Add cat"
+        android:layout_marginLeft="114.5dp" />
+    <TextView
+        android:id="@+id/CatsView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/MyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Hello" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout3">
+            <Button
+                android:id="@+id/MyButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Hello" />
+            <Button
+                android:id="@+id/MyButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Hello" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

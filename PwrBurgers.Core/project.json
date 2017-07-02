@@ -1,0 +1,11 @@
+{
+  "supports": {},
+  "dependencies": {
+    "Microsoft.EntityFrameworkCore": "1.1.1",
+    "Microsoft.EntityFrameworkCore.Sqlite": "1.1.1",
+    "NuGet.CommandLine": "4.1.0"
+  },
+  "frameworks": {
+    "netstandard1.6": {}
+  }
+}
